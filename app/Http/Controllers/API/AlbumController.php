@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers\API;
 
-use Illuminate\Http\Request;
-use App\Http\Controllers\API\BaseController as BaseController;
 use App\Album;
 use Validator;
+use Illuminate\Http\Request;
+use App\Http\Controllers\API\BaseController as BaseController;
 
 class AlbumController extends BaseController
 {
